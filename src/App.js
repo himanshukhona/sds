@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <AppComponent>
           <HeaderComponent></HeaderComponent>
-          <Box>maincontent</Box>
+          <Box><h1>Dashboard</h1></Box>
      </AppComponent>
     );
   }
