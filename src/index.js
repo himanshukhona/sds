@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, hashHistory } from 'react-router'
-//import createBrowserHistory from 'history/createBrowserHistory'
 import App from './App';
 import Settings from './components/Settings'
 import NotFound from './components/NotFound'
 import './index.css';
-
-//const history = createBrowserHistory()
+import 'grommet/scss/vanilla/index.scss';
 
 ReactDOM.render((
   <Router history={hashHistory}>
