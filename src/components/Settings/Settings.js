@@ -16,7 +16,7 @@ class Settings extends Component {
               <li><Link to="/users">Users</Link></li>
             </ul>
           </Sidebar>
-          <Box>hello{this.props.children}</Box>
+          <Box>{this.props.children}</Box>
         </Split>
      </AppComponent>
     );
