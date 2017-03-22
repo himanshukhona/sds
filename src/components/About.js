@@ -3,7 +3,7 @@ import AppComponent from 'grommet/components/App';
 import Columns from 'grommet/components/Columns';
 import Box from 'grommet/components/Box';
 import Hero from 'grommet/components/Hero';
-import GraphComponent from './Graph'
+import GraphComponent from './Charts/Graph'
 import Section from 'grommet/components/Section';
 
 const About = () =>
