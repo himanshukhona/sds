@@ -164,15 +164,8 @@ module.exports = {
       {
         test: /\.scss$/,
         loader: 'style!css!sass?outputStyle=expanded&' +
-        'includePaths[]=' +
-        (encodeURIComponent(
-          path.resolve(process.cwd(), './node_modules')
-        )) +
-        '&includePaths[]=' +
-        (encodeURIComponent(
-            path.resolve( process.cwd(),
-              './node_modules/grommet/node_modules'))
-        )
+          'includePaths[]=' +
+         (encodeURIComponent(path.resolve('./node_modules')))
       }
     ]
   },
