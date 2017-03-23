@@ -4,12 +4,15 @@ import LoginForm from 'grommet/components/LoginForm';
 import Anchor from 'grommet/components/Anchor';
 import Box from 'grommet/components/Box';
 import Columns from 'grommet/components/Columns';
+import Split from 'grommet/components/Split';
+import PlatformGoogleIcon from 'grommet/components/icons/base/PlatformGoogle';
+import SocialFacebookOptionIcon from 'grommet/components/icons/base/SocialFacebookOption';
 
 class Contact extends Component {
   render() {
     return (
       <AppComponent>
-        <Columns>
+        <Split>
           <Box>
             <LoginForm
               forgotPassword={<Anchor href='#'
@@ -17,8 +20,10 @@ class Contact extends Component {
           </Box>
           <Box>
             <h1>Connect with</h1>
+            <PlatformGoogleIcon size='large'/>
+            <SocialFacebookOptionIcon size='large' />
           </Box>
-        </Columns>
+        </Split>
       </AppComponent>
     );
   }

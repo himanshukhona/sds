@@ -12,15 +12,14 @@ const HeaderComponent = () =>
 <Header>
   <Menu icon={<MenuIcon />}
     dropAlign={{"right": "right", "top": "top"}}>
-    <Anchor href='#'
-      className='active'>
-      First
+    <Anchor href='#/contact'>
+      Contact
     </Anchor>
-    <Anchor href='#'>
-      Second
+    <Anchor href='#about'>
+      About
     </Anchor>
-    <Anchor href='#'>
-      Third
+    <Anchor href='#settings'>
+      Settings
     </Anchor>
   </Menu>
   <Box flex={true}

@@ -14,6 +14,8 @@ class Settings extends Component {
             <ul role="nav">
               <li><Link to="/accounts">Accounts</Link></li>
               <li><Link to="/users">Users</Link></li>
+              <li><Link to="/devices">Devices</Link></li>
+              <li><Link to="/subscription">subscription</Link></li>
             </ul>
           </Sidebar>
           <Box>{this.props.children}</Box>
