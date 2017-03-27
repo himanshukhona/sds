@@ -9,6 +9,7 @@ class Settings extends Component {
   render() {
     return (
       <AppComponent>
+      <h1>Settings</h1>
         <Split>
           <Sidebar>
             <ul role="nav">
